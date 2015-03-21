@@ -1,0 +1,6 @@
+<ul class="navul">
+  <li class="navli"><a class="nava" href="#home">Home</a></li>
+  <li class="navli"><a class="nava" href="#news">Add Driver</a></li>
+  <li class="navli"><a class="nava" href="#contact">View Driver History</a></li>
+  <li class="navli"><a class="nava" href="#about">Logout</a></li>
+</ul>

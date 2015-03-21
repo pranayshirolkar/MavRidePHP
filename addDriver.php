@@ -1,0 +1,40 @@
+<?php 
+include "masterpagetopsection.php";
+include "navbar.php";
+?>
+<div class="middleSection">
+<h4>
+Add Driver
+</h4>
+<table>
+<tr>
+<td>Email: 
+</td>
+<td><input type='text'/>
+</td>
+</tr><tr>
+<td>First Name: 
+</td>
+<td><input type='text'/>
+</td>
+</tr><tr>
+<td>Last Name: 
+</td>
+<td><input type='text'/>
+</td>
+</tr><tr>
+<td>Phone number: 
+</td>
+<td><input type='text'/>
+</td>
+</tr>
+<tr><td>
+<tr>
+<td>Password:</td>
+<td><input type='text'/></td>
+</tr>
+</td><td><input type='button' value='Reset'/>&nbsp;<input type='submit' value='Submit'/>
+</td></tr>
+</table>
+</div>
+<?php include "masterpagebottomsection.php"?>

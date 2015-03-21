@@ -1,0 +1,82 @@
+body
+{
+text-align:center;
+height: 720px;
+}
+.page
+{
+background-color: #0948B1;
+height: 720px;
+}
+.center
+{
+text-align: center;
+}
+.title
+{
+ background-color: #e86f24;
+ color: white;
+ font:normal 17px/17px 'Futura W01 Bold', Futura, sans-serif;
+ padding:6px 12px;
+ text-transform:uppercase;
+ text-align: center;
+}
+.heading
+{
+font:normal 15px/17px 'Futura W01 Bold', Futura, sans-serif;
+background-color: #e86f24;
+}
+.middleSection
+{
+font:normal 14px/17px 'Futura W01 Bold', Futura, sans-serif;
+display:inline-block;
+background-color: #FFE0A3;
+margin-left:12px;
+margin-right:12px;
+margin-top:12px;
+margin-bottom:12px;
+padding: 6px 12px;
+}
+.bottom
+{
+background-color: #0948B1;
+color:white;
+padding: 6px 12px;
+font:normal 12px/17px 'Futura W01 Bold', Futura, sans-serif;
+}
+.footer
+{
+background-color: black;
+color: white;
+clear: both;
+text-align: center;
+padding: 5px;
+}
+.navul {
+    list-style-type: none;
+    padding: 0;
+	margin:0;
+    overflow: hidden;
+	float:left;
+}
+
+.navli {
+    float: middle;
+	padding: 12px 12px;
+}
+
+.nava:link, .nava:visited {
+    display: block;
+    width: 120px;
+	font:normal 15px/17px 'Futura W01 Bold', Futura, sans-serif;
+    color: #FFFFFF;
+    background-color: #e86f24;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nava:hover, nava:active {
+    background-color: #CC5200;
+}
