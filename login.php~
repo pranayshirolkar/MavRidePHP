@@ -1,7 +1,4 @@
-<html>
-<head>		<script src="//www.parsecdn.com/js/parse-1.3.5.min.js"></script>
-</head>
-<body>
+		<script src="//www.parsecdn.com/js/parse-1.3.5.min.js"></script>
 <?php
 var Registration = Parse.Object.extend("Registration");
 var query = new Parse.Query(Registration);
@@ -21,5 +18,3 @@ alert("login failed"+error.code+" "+error.message);
 header("Location: index.php");
 });
 ?>
-</body>
-</html>

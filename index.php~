@@ -29,10 +29,6 @@ alert("login failed"+error.code+" "+error.message);
 //  alert("yay! it worked");
 //});
 }
-function ramu()
-{
-alert('ghoda');s
-}
 		</script>
 
 <div class="middleSection">
@@ -52,7 +48,7 @@ Welcome. Please login to continue.
 </tr>
 <tr>
 <td><span></span></td>
-<td><span style="float:right"><input type="submit" value="Login"/></span><input type='button' value="->" onclick="ramu();"/><br/>
+<td><span style="float:right"><input type="submit" value="Login"/></span><input type='button' value="->" onclick="validateLogin();"/><br/>
 <a href= "forgotPassword.php">Forgot Password? </a></td>
 </tr>
 </table>
