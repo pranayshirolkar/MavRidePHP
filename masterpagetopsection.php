@@ -6,12 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
 		<title>MavRide System</title>
 		<script src="//www.parsecdn.com/js/parse-1.3.5.min.js"></script>
-		<script>
-		function initParse()
-{
-alert('initParse');
-Parse.initialize("Z1onpLDjhguG5Xerjh1sSzCm4T6o3tgQdN4TwjiM", "pAXDotKSURGVnN5gB1fBcBTu5gAYqZXgeGmZGRrs");
-}
+		<script src="parse_scripts.js">
+		
 </script>
 	</head>
 	<!--

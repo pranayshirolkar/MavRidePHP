@@ -1,40 +1,6 @@
 <?php
 include "masterpagetopsection.php";
 ?>
-<script>
-function validateLogin()
-{
-alert('validateLogin');
-var Registration = Parse.Object.extend("Registration");
-var query = new Parse.Query(Registration);
-query.equalTo("Email","hmt");
-query.equalTo("Password","hmt");
-query.equalTo("UserType","Driver");
-query.find({
-success: function(results)
-{
-alert("login success "+results.length+" results");
-alert(results[0].get('First_Name');
-
-},
-error: function(error)
-{
-alert("login failed"+error.code+" "+error.message);
-
-});
-//alert('validateLogin');
-//var TestObject = Parse.Object.extend("TestObject");
-//var testObject = new TestObject();
-//testObject.save({foo: "bar"}).then(function(object) {
-//  alert("yay! it worked");
-//});
-}
-function ramu()
-{
-alert('ghoda');s
-}
-		</script>
-
 <div class="middleSection">
 <h4>
 Welcome. Please login to continue.
@@ -43,16 +9,16 @@ Welcome. Please login to continue.
 <form action='login.php'>
 <table>
 <tr>
-<td><span>Username or Email: </span></td>
-<td><span><input type='text'/></span></td>
+<td><span>Username: </span></td>
+<td><span><input type='text' id='unm'/></span></td>
 </tr>
 <tr>
 <td><span>Password:</span></td>
-<td><span><input type='password'/></span></td>
+<td><span><input type='password' id='password'/></span></td>
 </tr>
 <tr>
 <td><span></span></td>
-<td><span style="float:right"><input type="submit" value="Login"/></span><input type='button' value="->" onclick="ramu();"/><br/>
+<td><span style="float:right"><input type="submit" value="Login"/></span><input type='button' value="->" onclick="validateLogin();"/><br/>
 <a href= "forgotPassword.php">Forgot Password? </a></td>
 </tr>
 </table>
